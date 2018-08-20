@@ -1,0 +1,955 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UserActivity.Items" xml:space="preserve">
+    <value>P: Patents</value>
+  </data>
+  <data name="UserActivity.Items1" xml:space="preserve">
+    <value>T: Trademarks</value>
+  </data>
+  <data name="UserActivity.Items2" xml:space="preserve">
+    <value>P &amp; T: Patents &amp; Trademarks</value>
+  </data>
+  <data name="UserActivity.Items3" xml:space="preserve">
+    <value>O: Other</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="UserActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 122</value>
+  </data>
+  <data name="UserActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="UserActivity.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;UserActivity.Name" xml:space="preserve">
+    <value>UserActivity</value>
+  </data>
+  <data name="&gt;&gt;UserActivity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserActivity.Parent" xml:space="preserve">
+    <value>StatusBlock</value>
+  </data>
+  <data name="&gt;&gt;UserActivity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UserActivityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 99</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="UserActivityLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="UserActivityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 20</value>
+  </data>
+  <data name="UserActivityLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="UserActivityLabel.Text" xml:space="preserve">
+    <value>Activity:</value>
+  </data>
+  <data name="UserActivityLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;UserActivityLabel.Name" xml:space="preserve">
+    <value>UserActivityLabel</value>
+  </data>
+  <data name="&gt;&gt;UserActivityLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserActivityLabel.Parent" xml:space="preserve">
+    <value>StatusBlock</value>
+  </data>
+  <data name="&gt;&gt;UserActivityLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UserTypeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 15</value>
+  </data>
+  <data name="UserTypeLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="UserTypeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 20</value>
+  </data>
+  <data name="UserTypeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="UserTypeLabel.Text" xml:space="preserve">
+    <value>User type:</value>
+  </data>
+  <data name="UserTypeLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;UserTypeLabel.Name" xml:space="preserve">
+    <value>UserTypeLabel</value>
+  </data>
+  <data name="&gt;&gt;UserTypeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserTypeLabel.Parent" xml:space="preserve">
+    <value>StatusBlock</value>
+  </data>
+  <data name="&gt;&gt;UserTypeLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="UserType.Items" xml:space="preserve">
+    <value>Administrative</value>
+  </data>
+  <data name="UserType.Items1" xml:space="preserve">
+    <value>Council / Lawyer</value>
+  </data>
+  <data name="UserType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 38</value>
+  </data>
+  <data name="UserType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 21</value>
+  </data>
+  <data name="UserType.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;UserType.Name" xml:space="preserve">
+    <value>UserType</value>
+  </data>
+  <data name="&gt;&gt;UserType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserType.Parent" xml:space="preserve">
+    <value>StatusBlock</value>
+  </data>
+  <data name="&gt;&gt;UserType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="UserTypeHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 62</value>
+  </data>
+  <data name="UserTypeHelp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="UserTypeHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 37</value>
+  </data>
+  <data name="UserTypeHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="UserTypeHelp.Text" xml:space="preserve">
+    <value>If you don't know, please choose "Administrative"</value>
+  </data>
+  <data name="UserTypeHelp.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;UserTypeHelp.Name" xml:space="preserve">
+    <value>UserTypeHelp</value>
+  </data>
+  <data name="&gt;&gt;UserTypeHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserTypeHelp.Parent" xml:space="preserve">
+    <value>StatusBlock</value>
+  </data>
+  <data name="&gt;&gt;UserTypeHelp.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="StatusBlock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 103</value>
+  </data>
+  <data name="StatusBlock.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="StatusBlock.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="StatusBlock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 156</value>
+  </data>
+  <data name="StatusBlock.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="StatusBlock.Text" xml:space="preserve">
+    <value>Your status</value>
+  </data>
+  <data name="&gt;&gt;StatusBlock.Name" xml:space="preserve">
+    <value>StatusBlock</value>
+  </data>
+  <data name="&gt;&gt;StatusBlock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusBlock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StatusBlock.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="PrintPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 16</value>
+  </data>
+  <data name="PrintPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 20</value>
+  </data>
+  <data name="PrintPage.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;PrintPage.Name" xml:space="preserve">
+    <value>PrintPage</value>
+  </data>
+  <data name="&gt;&gt;PrintPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrintPage.Parent" xml:space="preserve">
+    <value>PrintBlock</value>
+  </data>
+  <data name="&gt;&gt;PrintPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PrintPageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 17</value>
+  </data>
+  <data name="PrintPageLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="PrintPageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="PrintPageLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="PrintPageLabel.Text" xml:space="preserve">
+    <value>Print page:</value>
+  </data>
+  <data name="PrintPageLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;PrintPageLabel.Name" xml:space="preserve">
+    <value>PrintPageLabel</value>
+  </data>
+  <data name="&gt;&gt;PrintPageLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrintPageLabel.Parent" xml:space="preserve">
+    <value>PrintBlock</value>
+  </data>
+  <data name="&gt;&gt;PrintPageLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PrintPageHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="PrintPageHelp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="PrintPageHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 33</value>
+  </data>
+  <data name="PrintPageHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="PrintPageHelp.Text" xml:space="preserve">
+    <value>For example 1 for the first page only, 1-2 for the first two pages, ...</value>
+  </data>
+  <data name="PrintPageHelp.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;PrintPageHelp.Name" xml:space="preserve">
+    <value>PrintPageHelp</value>
+  </data>
+  <data name="&gt;&gt;PrintPageHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrintPageHelp.Parent" xml:space="preserve">
+    <value>PrintBlock</value>
+  </data>
+  <data name="&gt;&gt;PrintPageHelp.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PrintBlock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 385</value>
+  </data>
+  <data name="PrintBlock.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="PrintBlock.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="PrintBlock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 78</value>
+  </data>
+  <data name="PrintBlock.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="PrintBlock.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="&gt;&gt;PrintBlock.Name" xml:space="preserve">
+    <value>PrintBlock</value>
+  </data>
+  <data name="&gt;&gt;PrintBlock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrintBlock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PrintBlock.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Initial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 38</value>
+  </data>
+  <data name="Initial.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Initial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="Initial.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Initial.Name" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="&gt;&gt;Initial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Initial.Parent" xml:space="preserve">
+    <value>UserInfoBlock</value>
+  </data>
+  <data name="&gt;&gt;Initial.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EmailAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 84</value>
+  </data>
+  <data name="EmailAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 21</value>
+  </data>
+  <data name="EmailAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;EmailAddress.Name" xml:space="preserve">
+    <value>EmailAddress</value>
+  </data>
+  <data name="&gt;&gt;EmailAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmailAddress.Parent" xml:space="preserve">
+    <value>UserInfoBlock</value>
+  </data>
+  <data name="&gt;&gt;EmailAddress.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="InitialLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InitialLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="InitialLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="InitialLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 20</value>
+  </data>
+  <data name="InitialLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="InitialLabel.Text" xml:space="preserve">
+    <value>Your initials (4char max):</value>
+  </data>
+  <data name="InitialLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;InitialLabel.Name" xml:space="preserve">
+    <value>InitialLabel</value>
+  </data>
+  <data name="&gt;&gt;InitialLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InitialLabel.Parent" xml:space="preserve">
+    <value>UserInfoBlock</value>
+  </data>
+  <data name="&gt;&gt;InitialLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="EmailAddressLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EmailAddressLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 61</value>
+  </data>
+  <data name="EmailAddressLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="EmailAddressLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 20</value>
+  </data>
+  <data name="EmailAddressLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="EmailAddressLabel.Text" xml:space="preserve">
+    <value>Your sending email address:</value>
+  </data>
+  <data name="EmailAddressLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;EmailAddressLabel.Name" xml:space="preserve">
+    <value>EmailAddressLabel</value>
+  </data>
+  <data name="&gt;&gt;EmailAddressLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmailAddressLabel.Parent" xml:space="preserve">
+    <value>UserInfoBlock</value>
+  </data>
+  <data name="&gt;&gt;EmailAddressLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="UserInfoBlock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 263</value>
+  </data>
+  <data name="UserInfoBlock.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="UserInfoBlock.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="UserInfoBlock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 118</value>
+  </data>
+  <data name="UserInfoBlock.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="UserInfoBlock.Text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="&gt;&gt;UserInfoBlock.Name" xml:space="preserve">
+    <value>UserInfoBlock</value>
+  </data>
+  <data name="&gt;&gt;UserInfoBlock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserInfoBlock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UserInfoBlock.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Entity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 39</value>
+  </data>
+  <data name="Entity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 21</value>
+  </data>
+  <data name="Entity.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Entity.Name" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="&gt;&gt;Entity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Entity.Parent" xml:space="preserve">
+    <value>EntityBlock</value>
+  </data>
+  <data name="&gt;&gt;Entity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EntityLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EntityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 16</value>
+  </data>
+  <data name="EntityLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="EntityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 20</value>
+  </data>
+  <data name="EntityLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="EntityLabel.Text" xml:space="preserve">
+    <value>Your office:</value>
+  </data>
+  <data name="EntityLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;EntityLabel.Name" xml:space="preserve">
+    <value>EntityLabel</value>
+  </data>
+  <data name="&gt;&gt;EntityLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EntityLabel.Parent" xml:space="preserve">
+    <value>EntityBlock</value>
+  </data>
+  <data name="&gt;&gt;EntityLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EntityBlock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 13</value>
+  </data>
+  <data name="EntityBlock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 71</value>
+  </data>
+  <data name="EntityBlock.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="EntityBlock.Text" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="&gt;&gt;EntityBlock.Name" xml:space="preserve">
+    <value>EntityBlock</value>
+  </data>
+  <data name="&gt;&gt;EntityBlock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EntityBlock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EntityBlock.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Validate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 468</value>
+  </data>
+  <data name="Validate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Validate.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Validate.Text" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="&gt;&gt;Validate.Name" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="&gt;&gt;Validate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Validate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Validate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 468</value>
+  </data>
+  <data name="Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;Cancel.Name" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;Cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Cancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>228, 498</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAAAAAAIABoBAAANgAAACAgAAAAACAAqBAAAJ4EAAAwMAAAAAAgAKglAABGFQAAKAAAABAA
+        AAAgAAAAAQAgAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAP///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAAAJQAA
+        AJcAAADjAAAA/wAAAP8AAADhAAAAlwAAACX///8B////Af///wH///8B////Af///wH///8BAAAAawAA
+        APcAAAD9AAAAxQAAAJcAAACXAAAAxQAAAP0AAAD3AAAAa////wH///8B////Af///wH///8BAAAAawAA
+        AP8AAADNAAAAL////wH///8B////Af///wEAAAAvAAAAzQAAAIv///8B////Af///wH///8BAAAAJQAA
+        APcAAADNAAAAC////wH///8B////Af///wH///8B////AQAAAAn///8B////Af///wH///8B////AQAA
+        AJcAAAD9AAAAL////wH///8BAAAA1wAAAP8AAAD/AAAA1////wH///8B////AQAAAEsAAAD1////Af//
+        /wEAAADjAAAAxf///wH///8B////AQAAAP8AAAD/AAAA/wAAAP////8B////AQAAAGcAAAD7AAAA////
+        /wH///8BAAAA/wAAAJf///8B////Af///wEAAADXAAAA/wAAAP8AAADXAAAABQAAAIMAAAD/AAAA/wAA
+        AP////8B////AQAAAP8AAAD/AAAA/wAAAIP///8B////Af///wH///8B////Af///wH///8B////AQAA
+        AJcAAAD/////Af///wEAAAD/AAAA+wAAAGf///8B////Af///wEAAADXAAAA1////wH///8B////Af//
+        /wEAAADFAAAA4f///wH///8BAAAA9QAAAEv///8B////Af///wH///8BAAAA1wAAANcAAAAF////Af//
+        /wEAAAAvAAAA/QAAAJf///8B////Af///wH///8BAAAAAwAAAAn///8B////Af///wH///8B////Af//
+        /wEAAAALAAAAzQAAAPcAAAAl////Af///wH///8B////AQAAAJ0AAADNAAAAL////wH///8B////Af//
+        /wEAAAAvAAAAzQAAAP8AAABr////Af///wH///8B////Af///wEAAABrAAAA9wAAAP0AAADFAAAAlwAA
+        AJcAAADFAAAA/QAAAPcAAABr////Af///wH///8B////Af///wH///8B////AQAAACUAAACXAAAA4wAA
+        AP8AAAD/AAAA4QAAAJcAAAAl////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//KAAAACAAAABAAAAAAQAgAAAA
+        AACAEAAAAAAAAAAAAAAAAAAAAAAAAP///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BAAAALQAAAF8AAACvAAAA3wAAAP8AAAD/AAAA/wAAAP8AAADXAAAArwAA
+        AF8AAAAt////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BAAAAFwAAAHkAAADXAAAA+QAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA+QAAANcAAAB5AAAAF////wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BAAAACQAAAE0AAADjAAAA/wAAAP8AAAD/AAAA/wAAAP8AAADtAAAA6QAA
+        AOkAAADtAAAA/wAAAP8AAAD/AAAA/wAAAP8AAADjAAAATQAAAAn///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wEAAABtAAAA6QAAAP8AAAD/AAAA/wAAAPcAAACtAAAAZwAA
+        AEMAAABBAAAAQQAAAEMAAABnAAAArQAAAPcAAAD/AAAA/wAAAP8AAADpAAAAbf///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wEAAAAJAAAAbQAAAP8AAAD/AAAA/wAAAPEAAACPAAAAJf//
+        /wH///8B////Af///wH///8B////Af///wH///8BAAAAJQAAAI8AAADxAAAA/wAAAPUAAACR////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////AQAAAE0AAADpAAAA/wAAAP8AAADjAAAAYwAA
+        AAn///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAAACQAAAGMAAADjAAAAkQAA
+        ABP///8B////Af///wH///8B////Af///wH///8B////Af///wEAAAAXAAAA4wAAAP8AAAD/AAAA4wAA
+        ACv///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AQAA
+        AB3///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AQAAAHkAAAD/AAAA/wAA
+        APEAAABj////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAAAtAAAA1wAA
+        AP8AAAD/AAAAjwAAAAn///8B////Af///wH///8BAAAAeQAAAPEAAAD/AAAA/wAAAP8AAAD/AAAA8QAA
+        AHn///8B////Af///wH///8B////Af///wEAAAADAAAAKQAAANUAAAD/////Af///wH///8B////AQAA
+        AF8AAAD5AAAA/wAAAPcAAAAl////Af///wH///8B////Af///wEAAADxAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA8f///wH///8B////Af///wH///8B////AQAAADcAAADJAAAA/wAAAP////8B////Af//
+        /wH///8BAAAArwAAAP8AAAD/AAAArf///wH///8B////Af///wH///8B////AQAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/////Af///wH///8B////AQAAAAcAAABRAAAA8QAAAP8AAAD/AAAA////
+        /wH///8B////Af///wEAAADfAAAA/wAAAP8AAABn////Af///wH///8B////Af///wH///8BAAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP////8B////Af///wH///8BAAAAZQAAAOEAAAD/AAAA/wAA
+        AP8AAAD/////Af///wH///8B////AQAAAP8AAAD/AAAA7QAAAEP///8B////Af///wH///8B////Af//
+        /wEAAADxAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA8QAAAA////8BAAAAEwAAAHUAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP////8B////Af///wH///8BAAAA/wAAAP8AAADpAAAAQf///wH///8B////Af//
+        /wH///8B////AQAAAHkAAADxAAAA/wAAAP8AAAD/AAAA/wAAAPEAAAB5////Af///wEAAACRAAAA9QAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/////wH///8B////Af///wEAAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD1AAAAkf///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wEAAABBAAAA6QAAAP8AAAD/////Af///wH///8B////AQAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAHUAAAAT////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AQAAAEMAAADtAAAA/wAAAP////8B////Af///wH///8BAAAA/wAA
+        AP8AAAD/AAAA/wAAAOEAAABl////Af///wH///8B////Af///wH///8BAAAAeQAAAPEAAADxAAAAef//
+        /wH///8B////Af///wH///8B////Af///wH///8BAAAAZwAAAP8AAAD/AAAA1////wH///8B////Af//
+        /wEAAAD/AAAA/wAAAP8AAADxAAAAUQAAAAf///8B////Af///wH///8B////Af///wEAAADxAAAA/wAA
+        AP8AAADx////Af///wH///8B////Af///wH///8B////Af///wEAAACtAAAA/wAAAP8AAACv////Af//
+        /wH///8B////AQAAAP8AAAD/AAAAyQAAADf///8B////Af///wH///8B////Af///wH///8B////AQAA
+        APEAAAD/AAAA/wAAAPEAAAAP////Af///wH///8B////Af///wH///8BAAAAJQAAAPcAAAD/AAAA+QAA
+        AF////8B////Af///wH///8BAAAA/wAAANUAAAApAAAAA////wH///8B////Af///wH///8B////Af//
+        /wH///8BAAAAeQAAAPEAAADxAAAAef///wH///8B////Af///wH///8B////AQAAAAkAAACPAAAA/wAA
+        AP8AAADXAAAALf///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAAAYwAA
+        APEAAAD/AAAA/wAAAHn///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAAACQAA
+        ACX///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AQAA
+        ACsAAADjAAAA/wAAAP8AAADjAAAAF////wH///8B////Af///wH///8B////Af///wH///8B////AQAA
+        AB8AAACvAAAA4wAAAGMAAAAJ////Af///wH///8B////Af///wH///8B////Af///wH///8B////AQAA
+        AAkAAABjAAAA4wAAAP8AAAD/AAAA6QAAAE3///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8BAAAArwAAAPkAAAD/AAAA8QAAAI8AAAAl////Af///wH///8B////Af///wH///8B////Af//
+        /wEAAAAlAAAAjwAAAPEAAAD/AAAA/wAAAP8AAABtAAAACf///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wEAAABtAAAA6QAAAP8AAAD/AAAA/wAAAPcAAACtAAAAZwAAAEMAAABBAAAAQQAA
+        AEMAAABnAAAArQAAAPcAAAD/AAAA/wAAAP8AAADpAAAAbf///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AQAAAAkAAABNAAAA4wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA7QAA
+        AOkAAADpAAAA7QAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA4wAAAE0AAAAJ////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAAAXAAAAeQAAANcAAAD5AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD5AAAA1wAAAHkAAAAX////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAAALQAA
+        AF8AAACvAAAA3wAAAP8AAAD/AAAA/wAAAP8AAADXAAAArwAAAF8AAAAt////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAwAAAAYAAAAAEA
+        IAAAAAAAgCUAAAAAAAAAAAAAAAAAAAAAAAD///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AQAAACEAAABxAAAArwAAAN8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADPAAAArwAA
+        AHEAAAAh////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wEAAABhAAAAzwAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAAzwAAAGH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BAAAAYQAAAN8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADfAAAAYf///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AQAAACEAAAC/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AL8AAAAh////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8BAAAAUQAAAO8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAADPAAAAvwAAAL8AAAC/AAAAvwAAAM8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAADvAAAAUf///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAABhAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAO8AAACfAAAAUf///wH///8B////Af///wH///8B////Af///wH///8BAAAAUQAA
+        AJ8AAADvAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAGH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AQAAAGEAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAADvAAAAgQAAABH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wEAAAARAAAAgQAAAO8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAJ////8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAAAUQAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAL8AAAAh////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////AQAAACEAAAC/AAAA/wAAAP8AAAD/AAAAn///
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wEAAAAhAAAA7wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAgf///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAAAgQAA
+        AP8AAACf////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wEAAAC/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAABh////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AQAAAEH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AQAAAGEAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAIH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////AQAAAN8AAAD/AAAA/wAAAP8AAAD/AAAAv///
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAAAYQAAAP8AAAD/AAAA/wAA
+        AP8AAADvAAAAIf///wH///8B////Af///wH///8B////Af///wEAAAARAAAAvwAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAAvwAAABH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wEAAACfAAAA/wAAAP////8B////Af///wH///8B////Af///wH///8BAAAAzwAA
+        AP8AAAD/AAAA/wAAAP8AAACB////Af///wH///8B////Af///wH///8B////Af///wEAAAC/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAL////8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BAAAAEQAAAK8AAAD/AAAA/wAAAP////8B////Af///wH///8B////Af//
+        /wEAAAAhAAAA/wAAAP8AAAD/AAAA/wAAAO8AAAAR////Af///wH///8B////Af///wH///8B////Af//
+        /wEAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP////8B////Af//
+        /wH///8B////Af///wH///8B////Af///wEAAAARAAAAzwAAAP8AAAD/AAAA/wAAAP////8B////Af//
+        /wH///8B////Af///wEAAABxAAAA/wAAAP8AAAD/AAAA/wAAAJ////8B////Af///wH///8B////Af//
+        /wH///8B////Af///wEAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP////8B////Af///wH///8B////Af///wH///8B////AQAAADEAAADfAAAA/wAAAP8AAAD/AAAA/wAA
+        AP////8B////Af///wH///8B////Af///wEAAACvAAAA/wAAAP8AAAD/AAAA/wAAAFH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wEAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP////8B////Af///wH///8B////Af///wH///8BAAAAMQAAAO8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP////8B////Af///wH///8B////Af///wEAAADfAAAA/wAAAP8AAAD/AAAA////
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP////8B////Af///wH///8B////Af///wEAAABhAAAA7wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP////8B////Af///wH///8B////Af///wEAAAD/AAAA/wAA
+        AP8AAAD/AAAAz////wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAh////Af///wH///8B////AQAA
+        AGEAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP////8B////Af///wH///8B////Af//
+        /wEAAAD/AAAA/wAAAP8AAAD/AAAAv////wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wEAAAC/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAL////8B////Af//
+        /wH///8BAAAAnwAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP////8B////Af//
+        /wH///8B////Af///wEAAAD/AAAA/wAAAP8AAAD/AAAAv////wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wEAAAARAAAAvwAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAvwAA
+        ABH///8B////Af///wEAAACfAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP////8B////Af///wH///8B////Af///wEAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAJ////8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAAAvwAA
+        AP8AAAD/AAAA/wAAAP////8B////Af///wH///8B////Af///wEAAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAAn////wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8BAAAAvwAAAP8AAAD/AAAA/wAAAP////8B////Af///wH///8B////Af///wEAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAABh////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BAAAAzwAAAP8AAAD/AAAA/wAAAP////8B////Af///wH///8B////Af//
+        /wEAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA7wAAAGH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wEAAAARAAAAvwAAAP8AAAD/AAAAvwAAABH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8BAAAA/wAAAP8AAAD/AAAA/wAAAM////8B////Af//
+        /wH///8B////Af///wEAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADvAAAAMf///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wEAAAC/AAAA/wAAAP8AAAD/AAAA/wAAAL////8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAABRAAAA/wAAAP8AAAD/AAAA/wAA
+        AK////8B////Af///wH///8B////Af///wEAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAN8AAAAx////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP////8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAACfAAAA/wAA
+        AP8AAAD/AAAA/wAAAHH///8B////Af///wH///8B////Af///wEAAAD/AAAA/wAAAP8AAAD/AAAAzwAA
+        ABH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAAh////Af///wH///8B////Af///wH///8B////Af///wH///8B////AQAA
+        ABEAAADvAAAA/wAAAP8AAAD/AAAA/wAAACH///8B////Af///wH///8B////Af///wEAAAD/AAAA/wAA
+        AP8AAACvAAAAEf///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wEAAAC/AAAA/wAAAP8AAAD/AAAA/wAAAL////8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AQAAAIEAAAD/AAAA/wAAAP8AAAD/AAAAz////wH///8B////Af///wH///8B////Af//
+        /wEAAAD/AAAA/wAAAJ////8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wEAAAARAAAAvwAAAP8AAAD/AAAAvwAAABH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BAAAAIQAAAO8AAAD/AAAA/wAAAP8AAAD/AAAAYf///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8BAAAAvwAAAP8AAAD/AAAA/wAAAP8AAADf////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAACBAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAABh////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AQAAABEAAABR////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AQAAAGEAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAL////8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BAAAAEQAAAM8AAAD/AAAAgf///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAAAgQAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA7wAAACH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wEAAAARAAAAzwAAAP8AAAD/AAAA/wAAAL8AAAAh////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AQAA
+        ACEAAAC/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAUf///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAADPAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAADvAAAAgQAAABH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wEAAAARAAAAgQAAAO8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAABh////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAABhAAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAO8AAACfAAAAUf///wH///8B////Af///wH///8B////Af//
+        /wH///8BAAAAUQAAAJ8AAADvAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAGH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8BAAAAUQAAAO8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADPAAAAvwAA
+        AL8AAAC/AAAAvwAAAM8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADvAAAAUf//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AQAAACEAAAC/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AL8AAAAh////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAAAYQAAAN8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAADfAAAAYf///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wEAAABhAAAAzwAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAAzwAAAGH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AQAAACEAAABxAAAArwAAAN8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAADPAAAArwAAAHEAAAAh////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wEAAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAA
+        AAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA
+        //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAA
+        AAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA
+        //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAA
+        AAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA
+        //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormOptions</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

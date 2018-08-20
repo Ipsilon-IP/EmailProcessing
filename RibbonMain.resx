@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="EmailInstruction.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="EmailInstruction.Label" xml:space="preserve">
+    <value>E-mail instruction</value>
+  </data>
+  <data name="&gt;&gt;EmailInstruction.Name" xml:space="preserve">
+    <value>EmailInstruction</value>
+  </data>
+  <data name="&gt;&gt;EmailInstruction.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;EmailInstruction.Parent" xml:space="preserve">
+    <value>email_process_group</value>
+  </data>
+  <data name="&gt;&gt;EmailInstruction.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Name" xml:space="preserve">
+    <value>Separator1</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.SeparatorView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Parent" xml:space="preserve">
+    <value>email_process_group</value>
+  </data>
+  <data name="&gt;&gt;Separator1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EmailAssign.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="EmailAssign.Label" xml:space="preserve">
+    <value>E-mail assign</value>
+  </data>
+  <data name="&gt;&gt;EmailAssign.Name" xml:space="preserve">
+    <value>EmailAssign</value>
+  </data>
+  <data name="&gt;&gt;EmailAssign.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;EmailAssign.Parent" xml:space="preserve">
+    <value>email_process_group</value>
+  </data>
+  <data name="&gt;&gt;EmailAssign.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="email_process_group.Label" xml:space="preserve">
+    <value>E-mail process</value>
+  </data>
+  <data name="&gt;&gt;email_process_group.Name" xml:space="preserve">
+    <value>email_process_group</value>
+  </data>
+  <data name="&gt;&gt;email_process_group.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.GroupView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;email_process_group.Parent" xml:space="preserve">
+    <value>Mail_Ribbon_TDM</value>
+  </data>
+  <data name="&gt;&gt;email_process_group.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EmailAreadyDone.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="EmailAreadyDone.Label" xml:space="preserve">
+    <value>Already done / do nothing</value>
+  </data>
+  <data name="&gt;&gt;EmailAreadyDone.Name" xml:space="preserve">
+    <value>EmailAreadyDone</value>
+  </data>
+  <data name="&gt;&gt;EmailAreadyDone.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;EmailAreadyDone.Parent" xml:space="preserve">
+    <value>swift_action_group</value>
+  </data>
+  <data name="&gt;&gt;EmailAreadyDone.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="swift_action_group.Label" xml:space="preserve">
+    <value>Swift action</value>
+  </data>
+  <data name="&gt;&gt;swift_action_group.Name" xml:space="preserve">
+    <value>swift_action_group</value>
+  </data>
+  <data name="&gt;&gt;swift_action_group.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.GroupView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;swift_action_group.Parent" xml:space="preserve">
+    <value>Mail_Ribbon_TDM</value>
+  </data>
+  <data name="&gt;&gt;swift_action_group.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SoftwareLink.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SoftwareLink.Label" xml:space="preserve">
+    <value>Dossier informations</value>
+  </data>
+  <data name="&gt;&gt;SoftwareLink.Name" xml:space="preserve">
+    <value>SoftwareLink</value>
+  </data>
+  <data name="&gt;&gt;SoftwareLink.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;SoftwareLink.Parent" xml:space="preserve">
+    <value>info_dossier_group</value>
+  </data>
+  <data name="&gt;&gt;SoftwareLink.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AddDossier.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AddDossier.Label" xml:space="preserve">
+    <value>Add dossier</value>
+  </data>
+  <data name="&gt;&gt;AddDossier.Name" xml:space="preserve">
+    <value>AddDossier</value>
+  </data>
+  <data name="&gt;&gt;AddDossier.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;AddDossier.Parent" xml:space="preserve">
+    <value>info_dossier_group</value>
+  </data>
+  <data name="&gt;&gt;AddDossier.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DelDossier.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DelDossier.Label" xml:space="preserve">
+    <value>Delete dossier</value>
+  </data>
+  <data name="DelDossier.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;DelDossier.Name" xml:space="preserve">
+    <value>DelDossier</value>
+  </data>
+  <data name="&gt;&gt;DelDossier.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;DelDossier.Parent" xml:space="preserve">
+    <value>info_dossier_group</value>
+  </data>
+  <data name="&gt;&gt;DelDossier.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AddDossierInstant.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AddDossierInstant.Label" xml:space="preserve">
+    <value>Instant add dossier</value>
+  </data>
+  <data name="&gt;&gt;AddDossierInstant.Name" xml:space="preserve">
+    <value>AddDossierInstant</value>
+  </data>
+  <data name="&gt;&gt;AddDossierInstant.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;AddDossierInstant.Parent" xml:space="preserve">
+    <value>info_dossier_group</value>
+  </data>
+  <data name="&gt;&gt;AddDossierInstant.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="info_dossier_group.Label" xml:space="preserve">
+    <value>Dossier</value>
+  </data>
+  <data name="&gt;&gt;info_dossier_group.Name" xml:space="preserve">
+    <value>info_dossier_group</value>
+  </data>
+  <data name="&gt;&gt;info_dossier_group.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.GroupView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;info_dossier_group.Parent" xml:space="preserve">
+    <value>Mail_Ribbon_TDM</value>
+  </data>
+  <data name="&gt;&gt;info_dossier_group.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="OpenSharedFolder.Label" xml:space="preserve">
+    <value>Open folder</value>
+  </data>
+  <data name="&gt;&gt;OpenSharedFolder.Name" xml:space="preserve">
+    <value>OpenSharedFolder</value>
+  </data>
+  <data name="&gt;&gt;OpenSharedFolder.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OpenSharedFolder.Parent" xml:space="preserve">
+    <value>shared_folder_group</value>
+  </data>
+  <data name="&gt;&gt;OpenSharedFolder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SaveSharedFolder.Label" xml:space="preserve">
+    <value>Save mail</value>
+  </data>
+  <data name="&gt;&gt;SaveSharedFolder.Name" xml:space="preserve">
+    <value>SaveSharedFolder</value>
+  </data>
+  <data name="&gt;&gt;SaveSharedFolder.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;SaveSharedFolder.Parent" xml:space="preserve">
+    <value>shared_folder_group</value>
+  </data>
+  <data name="&gt;&gt;SaveSharedFolder.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="shared_folder_group.Label" xml:space="preserve">
+    <value>Shared folder</value>
+  </data>
+  <data name="&gt;&gt;shared_folder_group.Name" xml:space="preserve">
+    <value>shared_folder_group</value>
+  </data>
+  <data name="&gt;&gt;shared_folder_group.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.GroupView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;shared_folder_group.Parent" xml:space="preserve">
+    <value>Mail_Ribbon_TDM</value>
+  </data>
+  <data name="&gt;&gt;shared_folder_group.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="EmailPrint.Label" xml:space="preserve">
+    <value>Print e-mail</value>
+  </data>
+  <data name="&gt;&gt;EmailPrint.Name" xml:space="preserve">
+    <value>EmailPrint</value>
+  </data>
+  <data name="&gt;&gt;EmailPrint.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;EmailPrint.Parent" xml:space="preserve">
+    <value>print_group</value>
+  </data>
+  <data name="&gt;&gt;EmailPrint.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EmailPrintWithAttachments.Label" xml:space="preserve">
+    <value>Print e-mail + attachments</value>
+  </data>
+  <data name="&gt;&gt;EmailPrintWithAttachments.Name" xml:space="preserve">
+    <value>EmailPrintWithAttachments</value>
+  </data>
+  <data name="&gt;&gt;EmailPrintWithAttachments.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;EmailPrintWithAttachments.Parent" xml:space="preserve">
+    <value>print_group</value>
+  </data>
+  <data name="&gt;&gt;EmailPrintWithAttachments.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="print_group.Label" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="&gt;&gt;print_group.Name" xml:space="preserve">
+    <value>print_group</value>
+  </data>
+  <data name="&gt;&gt;print_group.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.GroupView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;print_group.Parent" xml:space="preserve">
+    <value>Mail_Ribbon_TDM</value>
+  </data>
+  <data name="&gt;&gt;print_group.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Options.Label" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;Options.Name" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;Options.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;Options.Parent" xml:space="preserve">
+    <value>option_group</value>
+  </data>
+  <data name="&gt;&gt;Options.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="option_group.Label" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;option_group.Name" xml:space="preserve">
+    <value>option_group</value>
+  </data>
+  <data name="&gt;&gt;option_group.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.GroupView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;option_group.Parent" xml:space="preserve">
+    <value>Mail_Ribbon_TDM</value>
+  </data>
+  <data name="&gt;&gt;option_group.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Mail_Ribbon_TDM.Label" xml:space="preserve">
+    <value>E-mail processing</value>
+  </data>
+  <data name="&gt;&gt;Mail_Ribbon_TDM.Name" xml:space="preserve">
+    <value>Mail_Ribbon_TDM</value>
+  </data>
+  <data name="&gt;&gt;Mail_Ribbon_TDM.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.TabView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;RibbonMain.OfficeMenu.Name" xml:space="preserve">
+    <value>RibbonMain.OfficeMenu</value>
+  </data>
+  <data name="&gt;&gt;RibbonMain.OfficeMenu.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.OfficeMenuView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RibbonMain.OfficeMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RibbonMain.OfficeMenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RibbonMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.GenericRibbonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
